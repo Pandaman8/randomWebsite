@@ -26,7 +26,7 @@ function moveButton(){
     tauntTop = 20 + (Math.random()*(height-200));
     tauntNum = Math.floor(1 + (Math.random()*6));
 
-    for(let i = 1; i < 6; i++){
+    for(let i = 1; i < 7; i++){
         document.getElementById("#taunt" + i.toString()).style.visibility = "hidden";
     }
    
