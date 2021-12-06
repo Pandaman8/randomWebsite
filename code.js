@@ -17,8 +17,8 @@ function moveButton(){
     height = Math.min(Cheight, Wheight);
     width = Math.min(Cwidth, Wwidth);
 
-    topInt = 20 + (Math.random()*(height-100));
-    leftInt = 20 + (Math.random() * (width-100));
+    topInt = 20 + (Math.random()*(height-200));
+    leftInt = 20 + (Math.random() * (width-200));
     if(counter < 100){
         x.style.top = topInt.toString() + "px";
         x.style.left = leftInt.toString() + "px";
