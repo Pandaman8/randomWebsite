@@ -48,7 +48,7 @@ function incrementButton(){
     var btn = document.getElementById("#btn");
 
     var num = parseInt(display.textContent);
-    if(num == 100){
+    if(num == 500){
         words.textContent = "MERRY CHRISTMAS";
         document.getElementById("#TREE").style.visibility = "visible";
     }
