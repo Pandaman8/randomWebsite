@@ -41,3 +41,17 @@ function moveButton(){
     counterElement.style.right = counter.toString() + "px";
     
 }
+
+function incrementButton(){
+    var display = document.getElementById("#count");
+    var words = document.getElementById("#display");
+    var btn = document.getElementById("#btn");
+
+    var num = parseInt(display.textContent);
+    if(num == 100){
+        words.textContent = "MERRY CHRISTMAS";
+        document.getElementById("#TREE").style.visibility = "visible";
+    }
+    num++;
+    display.textContent = num.toString();
+}
